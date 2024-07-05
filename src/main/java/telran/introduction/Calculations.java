@@ -2,14 +2,17 @@ package telran.introduction;
 
 public class Calculations {
     public static int sum(int op1, int op2){
+        //TODO
         int res = op1 + op2;
         return res;
     }
     public static int multiply(int op1, int op2){
+        //TODO
         int res = op1 * op2;
         return res;
     }
     public static int divide(int op1, int op2){
+        //TODO
         if (op2 != 0){
             int res = op1 / op2;
             return res;
@@ -18,10 +21,12 @@ public class Calculations {
         
     }
     public static int substract(int op1, int op2){
+        //TODO
         int res = op1 - op2;
         return res;
     }
     public static int sumOfDigits(int number){
+        //TODO
         int digit = 0;
         int sum = 0;
         while (number > 0){
@@ -32,6 +37,7 @@ public class Calculations {
         return sum;
     }
     public static int maxDigit(int number){
+        //TODO
         int digit = 0;
         int digit_max = 0;
         while (number > 0){
@@ -44,6 +50,7 @@ public class Calculations {
         return digit_max;
     }
     public static boolean isDivideOn(int number, int divider){
+        //TODO
         if (divider != 0 ){
             int res = number % divider;
             if (res == 0){
