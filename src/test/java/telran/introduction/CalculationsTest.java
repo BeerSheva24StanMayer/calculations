@@ -16,7 +16,7 @@ void multTest() {
     }
 @Test
 void divTest() {
-    assertEquals(4, divide(8, 2));
+      assertEquals(4, divide(8, 0));
     }   
 @Test
 void subsTest() {
@@ -24,7 +24,7 @@ void subsTest() {
     }   
  @Test
 void sumOfDigTest() {
-    assertEquals(9, sumOfDigits(162));
+    assertEquals(19, sumOfDigits(199));
     } 
  @Test
 void maxDigTest() {
@@ -32,6 +32,6 @@ void maxDigTest() {
     } 
 @Test
 void isDivideTest() {
-    assertEquals(true, isDivideOn(6, 3));
+    assertEquals(true, isDivideOn(80, 4));
     } 
 }
